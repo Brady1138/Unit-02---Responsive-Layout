@@ -18,7 +18,8 @@ nav {
 }
 
 a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
     text-decoration: none;
     color: black;
     padding-bottom: 5px;
@@ -46,8 +47,8 @@ main {
     padding: 0 0 20px 5px;
 }
 
-h1 {
-    font-family: 'Paytone One', sans-serif;
+h1, h3, h4 {
+    font-family: 'ROBOTO', sans-serif;
 }
 
 p {
