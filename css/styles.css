@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    background-color: rgb(250,250,250);
+    padding: 0 3%;
+}
+
+nav {
+    display: flex;
+    flex-flow: column;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 5px;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+main {
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+#profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(250,250,250);
+}
+
+#profile_image {
+    padding: 0 0 20px 5px;
+}
+
+h1 {
+    font-family: 'Paytone One', sans-serif;
+}
+
+p {
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5em;
+    color: darkgray;
+}
+
+.portfolio_image {
+    width: 100%;
+    max-width: 600px;
+}
+
+ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    width: 70%;
+    max-width: 450px;
+    margin: 3px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 4px;
+    background-color: rgb(250,250,250);
+}
+
+.messaging {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20%;
+}
+
+.info {
+    font-weight: bold;
+}
+#bottom_nav {
+    display: none;
+}
+
+#bottom_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px black;
+    width: 90%;
+    height: 50px;
+    border-top: 2px solid darkgray;
+    padding: 0 10%;
+}
+
+@media (min-width: 768px) {
+    nav {
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+    }
+    #profile {
+        flex-direction: row-reverse;
+    }
+
+    #bottom_nav {
+        display: flex;
+        flex-flow: row;
+        justify-content: right;
+    }
+
+    #top {
+        display: none;
+    }
+    
+    a {
+        padding: 4px 10px;
+    }
+}
+
+@media (min-width: 1024px){
+    header {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+}
