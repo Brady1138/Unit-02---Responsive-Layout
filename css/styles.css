@@ -87,6 +87,9 @@ footer {
     background-color: rgb(250,250,250);
 }
 
+.paragraph {
+    padding: 0 5%;
+}
 .messaging {
     display: flex;
     justify-content: space-around;
@@ -154,5 +157,8 @@ footer {
     li {
         width: 32%;
         height: 400px;
+    }
+    .paragraph {
+        padding: 0;
     }
 }
