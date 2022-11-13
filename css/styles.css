@@ -59,7 +59,6 @@ p {
 
 .portfolio_image {
     width: 100%;
-    max-width: 600px;
 }
 
 ul {
@@ -73,7 +72,7 @@ ul {
 
 li {
     width: 70%;
-    max-width: 420px;
+    height: 400px;
     margin: 5px;
 }
 
@@ -81,6 +80,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     width: 100%;
     margin: 0;
@@ -105,11 +105,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px black;
-    width: 90%;
+    width: 85%;
     height: 50px;
-    border-top: 2px solid darkgray;
-    padding: 0 10%;
+    border-top: 1px solid lightgray;
 }
 
 @media (min-width: 768px) {
@@ -129,10 +127,15 @@ footer {
         align-items: center;
     }
 
+    li {
+        width: 46%;
+        height: 400px;
+    }
+
     #bottom_nav {
         display: flex;
         flex-flow: row;
-        justify-content: right;
+        /* justify-content: right; */
     }
 
     #top {
@@ -148,5 +151,10 @@ footer {
     header {
         flex-flow: row;
         justify-content: space-between;
+    }
+
+    li {
+        width: 32%;
+        height: 400px;
     }
 }
