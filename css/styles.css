@@ -89,6 +89,7 @@ footer {
 
 .paragraph {
     padding: 0 5%;
+    text-align: center;
 }
 .messaging {
     display: flex;
