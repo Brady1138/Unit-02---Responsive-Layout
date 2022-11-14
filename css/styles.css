@@ -55,6 +55,7 @@ p {
     font-family: 'Teko', sans-serif;
     font-size: 1.5em;
     color: darkgray;
+    text-align: center;
 }
 
 .portfolio_image {
@@ -74,6 +75,10 @@ li {
     width: 70%;
     height: 400px;
     margin: 5px;
+}
+
+#portfolio, #skills {
+    padding: 0 5%;
 }
 
 footer {
@@ -158,8 +163,5 @@ footer {
     li {
         width: 32%;
         height: 400px;
-    }
-    .paragraph {
-        padding: 0;
     }
 }
