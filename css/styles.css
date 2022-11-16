@@ -60,7 +60,7 @@ p {
 
 .portfolio_image {
     width: 100%;
-    transition: .2s;
+    transition: .1s;
 }
 
 ul {
@@ -141,7 +141,7 @@ footer {
     }
 
     .portfolio_image:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
         transition: .2s;
     }
 
