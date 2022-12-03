@@ -17,8 +17,6 @@ header {
     padding: 0 3%;
 }
 
-
-
 nav {
     display: flex;
     flex-flow: column;
@@ -42,7 +40,9 @@ main {
     margin: 0;
 }
 
-h1, h3, h4 {
+h1, 
+h3, 
+h4 {
     font-family: 'Roboto', sans-serif;
 }
 
