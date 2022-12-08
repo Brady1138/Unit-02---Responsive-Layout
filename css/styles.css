@@ -110,7 +110,7 @@ footer {
     border-top: 1px solid lightgray;
 }
 
-[id="profile"] {
+#profile {
     display: flex;
     flex-direction: column;
     justify-content: center;
